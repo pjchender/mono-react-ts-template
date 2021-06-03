@@ -114,6 +114,7 @@ module.exports = {
           '**/*.stories.{js,jsx,ts,tsx}',
           '**/rollup.config.js',
         ],
+        peerDependencies: true,
         packageDir,
       },
     ],
