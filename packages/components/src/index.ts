@@ -1,5 +1,5 @@
-function components(foo: string, bar: string) {
-  return foo + bar
+function components(foo: string, bar: string): string {
+  return foo + bar;
 }
 
 export default components;

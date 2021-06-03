@@ -1,5 +1,5 @@
-function core(foo: string, bar: string) {
-    return foo + bar
-  }
+function core(foo: string, bar: string): string {
+  return foo + bar;
+}
 
-  export default core;
+export default core;
