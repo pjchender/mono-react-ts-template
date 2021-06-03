@@ -6,7 +6,9 @@
     "build:ts": "lerna run build:ts",
     "lint": "lerna run lint",
     "clean": "lerna run clean",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "version:patch": "lerna version patch --no-git-tag-version",
+    "publish:local": "lerna run build && lerna run build:ts && lerna publish from-package --registry 'http://localhost:4873'"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.14.3",
