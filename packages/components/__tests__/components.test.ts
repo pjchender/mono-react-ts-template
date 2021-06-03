@@ -1,7 +1,7 @@
-'use strict';
-
-const components = require('..');
+import components from '../src';
 
 describe('@mono-react-component-template/components', () => {
-    it('needs tests');
+  it('needs tests', () => {
+    expect(components('foo', 'bar')).toBe('foobar');
+  });
 });

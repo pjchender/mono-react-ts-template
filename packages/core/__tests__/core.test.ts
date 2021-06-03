@@ -1,7 +1,7 @@
-'use strict';
-
-const core = require('..');
+import core from '../src';
 
 describe('@mono-react-component-template/core', () => {
-    it('needs tests');
+  it('needs tests', () => {
+    expect(core('foo', 'bar')).toBe('foobar');
+  });
 });

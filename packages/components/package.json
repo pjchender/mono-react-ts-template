@@ -20,6 +20,6 @@
   "scripts": {
     "lint": "eslint src --ext js,ts,jsx,tsx",
     "clean": "rimraf dist *.tsbuildinfo",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "jest"
   }
 }
