@@ -5,7 +5,8 @@
   "keywords": [],
   "author": "aaronchen <aaron.chen@onedegree.hk>",
   "license": "ISC",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "directories": {
     "src": "src",
@@ -18,6 +19,7 @@
     "access": "public"
   },
   "scripts": {
+    "build": "rollup -c ../../rollup.config.js",
     "lint": "eslint src --ext js,ts,jsx,tsx",
     "clean": "rimraf dist *.tsbuildinfo",
     "test": "jest"

@@ -109,7 +109,11 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: ['**/*.test.{ts,tsx}', '**/*.stories.{ts,tsx}'],
+        devDependencies: [
+          '**/*.test.{js,jsx,ts,tsx}',
+          '**/*.stories.{js,jsx,ts,tsx}',
+          '**/rollup.config.js',
+        ],
         packageDir,
       },
     ],
