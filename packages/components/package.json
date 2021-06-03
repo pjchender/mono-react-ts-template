@@ -20,6 +20,7 @@
   },
   "scripts": {
     "build": "rollup -c ../../rollup.config.js",
+    "build:ts": "tsc --emitDeclarationOnly --project tsconfig.json",
     "lint": "eslint src --ext js,ts,jsx,tsx",
     "clean": "rimraf dist *.tsbuildinfo",
     "test": "jest"

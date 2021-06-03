@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "lerna run build",
+    "build:ts": "lerna run build:ts",
     "lint": "lerna run lint",
     "clean": "lerna run clean",
     "test": "lerna run test"
