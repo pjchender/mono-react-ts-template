@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner snapshot show be the same 1`] = `
+<div>
+  <h1
+    data-testid="banner"
+  >
+    Hello, 
+    foo
+  </h1>
+</div>
+`;

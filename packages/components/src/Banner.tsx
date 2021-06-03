@@ -7,7 +7,7 @@ interface Props {
 const Banner: FC<Props> = ({ text }: Props) => {
   return (
     <div>
-      <h1>Hello, {text}</h1>
+      <h1 data-testid="banner">Hello, {text}</h1>
     </div>
   );
 };
