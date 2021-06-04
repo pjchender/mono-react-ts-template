@@ -11,6 +11,7 @@ export default {
     {
       file: 'dist/index.cjs.js',
       format: 'cjs',
+      exports: 'auto',
     },
     {
       file: 'dist/index.esm.js',
@@ -29,5 +30,5 @@ export default {
     }),
     terser(),
   ],
-  external: [/@babel\/runtime/], // 由於 babelHelpers 選 runtime
+  external: ['styled-components', /@babel\/runtime/], // 由於 babelHelpers 選 runtime
 };

@@ -3,6 +3,7 @@
 exports[`Banner snapshot show be the same 1`] = `
 <div>
   <h1
+    className="Banner__StyledHeader-sc-13xmge6-0 kiILqj"
     data-testid="banner"
   >
     Hello, 

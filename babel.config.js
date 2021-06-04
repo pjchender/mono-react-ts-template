@@ -16,5 +16,14 @@ module.exports = {
     ],
     '@babel/preset-typescript',
   ],
-  plugins: ['@babel/plugin-transform-runtime'],
+  plugins: [
+    [
+      'babel-plugin-styled-components',
+      {
+        ssr: true,
+        pure: true, // NOTICE: this is for dead code elimination
+      },
+    ],
+    '@babel/plugin-transform-runtime',
+  ],
 };
